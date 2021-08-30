@@ -234,3 +234,44 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #035c35;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+nav li {
+  padding: 0 25px;
+}
